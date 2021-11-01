@@ -8,3 +8,44 @@ body {
 }
 
 /* ---------------------------------------------------- */
+
+.container {
+	display: inline-flexbox;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	background-color: whitesmoke;
+	border-radius: 1rem;
+	align-items: stretch;
+}
+
+.item {
+	display: inline-block;
+	max-width: 22%;
+	padding: 2rem;
+	margin: 2rem;
+	background-color: white;
+	border-radius: 1rem;
+	text-align: center;
+}
+
+.foto {
+	max-width: 150px;
+	height: auto;
+	border-radius: 5rem;
+}
+
+.zapati {
+	display: inline-flexbox;
+	align-content: center;
+	word-spacing: 1rem;
+	}
+
+.ikona {
+	max-width: 35px;
+	max-height: 35px;
+}
+
+.jmeno {
+	font-size: 1.1rem;
+}
